@@ -1,5 +1,6 @@
 // ❓ Pregunta 3: Limpieza olvidada en efectos
 // 🧩 ¿Qué pasa si este componente se monta y desmonta repetidamente? ¿Cómo solucionarlo?
+// ✅ Se debe hacer un cleanup para evitar fugas de memoria
 
 import { useEffect } from "react";
 

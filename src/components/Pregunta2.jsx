@@ -1,5 +1,6 @@
 // ❓ Pregunta 2: useEffect mal usado (dependencias incorrectas)
 // 🧩 ¿Qué sucede con este código? ¿Qué está mal con las dependencias?
+// ✅ Se necesita un cleanup para evitar fugas de memoria
 
 import { useState, useEffect } from "react";
 
