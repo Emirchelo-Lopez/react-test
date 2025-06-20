@@ -1,6 +1,7 @@
 // ❓ Pregunta 6: Estado mutado directamente en onChange
 // 🧩 ¿Qué está mal aquí? ¿Por qué no funciona el input?
 // ¿Cómo arreglarías el código para que funcione correctamente?
+// Se debe utilizar setValue para cambiar el estado de value, agregué un h1 para visualizar el cambio en tiempo real
 
 import { useState } from "react";
 
